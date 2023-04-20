@@ -1,0 +1,17 @@
+@media print {
+  #jadwalUTS * {
+    display: block;
+    width: 210mm;
+    height: 297mm;
+    font-size: 8px;
+  }
+  .buttonPrint {
+    display: none;
+  }
+  .title {
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
+}
